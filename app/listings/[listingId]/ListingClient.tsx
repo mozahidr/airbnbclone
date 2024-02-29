@@ -79,6 +79,7 @@ const ListingClient: React.FC<ListingClientProps> = ({
 
         // Redirect to /trips
         router.push("/trips");
+        router.refresh();
       })
       .catch(() => {
         toast.error('Something went wrong.');
