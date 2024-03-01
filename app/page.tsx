@@ -41,3 +41,5 @@ const Home = async ({ searchParams }: HomeProps) => {
     </ClientOnly>
   );
 }
+
+export default Home;
